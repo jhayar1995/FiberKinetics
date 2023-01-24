@@ -1,0 +1,243 @@
+@font-face {
+  font-family: "Bebas";
+  src: url("fonts/BebasNeueLight.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue Light';
+  src: url('fonts/BebasNeueLight.ttf');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: 0;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#pp-nav ul,
+.pp-slidesNav ul {
+  opacity: 1;
+}
+
+#pagepiling .section {
+  background-size: cover;
+  text-align: center;
+}
+
+#pagepiling .section h2 {
+  background-size: cover;
+  text-align: left;
+}
+
+#pp-nav li .active span,
+.pp-slidesNav .active span {
+  background-color: #ffffff;
+}
+
+.title {
+  font-size: 90px;
+  /* line-height: 105px; */
+}
+
+.sub-title {
+  font-size: 90px;
+  /* line-height: 26px; */
+}
+
+.subtitle1,
+.subtitle2 {
+  font-size: 66px;
+  font-family: "Bebas Neue";
+  line-height: 82px;
+}
+
+
+.subtitle1 {
+  color: #f93822;
+  font-size: 88px;
+
+}
+
+.subtitle2 {
+  color: #fff;
+  font-size: 88px;
+}
+
+header a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Bebas Neue Light";
+  position: relative;
+  left: -183px;
+  letter-spacing: 2px;
+}
+
+header a:hover {
+  color: #2ad2c9;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  bottom: 90%;
+  right: 100%;
+  font-family: "Roboto";
+}
+
+header h5 {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: medium;
+}
+
+
+
+header nav {
+  display: inline-block;
+}
+
+.homeslider {
+  max-width: 100%;
+  height: 100vh;
+  width: 100vw;
+}
+
+#homeMG {
+  position: absolute;
+  height: 456px;
+  width: 505px;
+  top: 65px;
+  right: 200px;
+}
+
+.homelogo {
+  width: 202px;
+  height: 43px;
+  position: absolute;
+  z-index: 1;
+  top: 34px;
+  left: 65px;
+}
+
+.slide1text1 {
+  color: white;
+  position: absolute;
+  top: 207px;
+  left: 70px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.slide1text2 {
+  color: white;
+  position: absolute;
+  top: 226px;
+  left: 70px;
+  text-align: left;
+  font-size: 14px;
+  font-family: "Roboto";
+}
+
+.slide1text1 h3 {
+  color: #2ad2c9;
+}
+
+.slide1text3 {
+  color: white;
+  position: absolute;
+  top: 333px;
+  left: 70px;
+  text-align: left;
+  font-size: 14px;
+  font-family: "Roboto";
+}
+
+.slide1text4 {
+  color: white;
+  position: absolute;
+  top: 189px;
+  left: 402px;
+  text-align: left;
+  font-size: 14px;
+  font-family: "Roboto";
+  line-height: 62px;
+}
+
+.slide1text5 {
+  color: #2ad2c9;
+  position: absolute;
+  top: 205px;
+  left: 402px;
+  text-align: left;
+  font-size: 15px;
+  font-family: "Bebas Neue";
+  line-height: 62px;
+  letter-spacing: 2px;
+}
+
+.slide1text6 {
+  color: #2ad2c9;
+  position: absolute;
+  top: 253px;
+  left: 70px;
+  text-align: left;
+  font-size: 15px;
+  font-family: "Bebas Neue";
+  line-height: 89px;
+  letter-spacing: 2px;
+}
+
+.pp-tooltip {
+  color: #2ad2c9 !important;
+}
+
+#pp-nav li .active span,
+.pp-slidesNav .active span {
+    background: #f93822 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Bebas Neue Light";
+    position: relative;
+    top: 4px;
+    left: -15px;
+    letter-spacing: 0px;
+    font-size: 15px;
+  }
+
+  #homeMG {
+    position: absolute;
+    height: 456px;
+    width: 505px;
+    top: 88px;
+    right: 200px;
+    opacity: 0;
+  }
+
+  .homelogo {
+    width: 227px;
+    position: absolute;
+    z-index: 1;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}

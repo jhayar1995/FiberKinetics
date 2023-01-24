@@ -1,0 +1,667 @@
+@font-face {
+    font-family: "Bebas";
+    src: url("fonts/BebasNeueLight.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Light';
+    src: url('fonts/BebasNeueLight.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: 0;
+}
+
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+#pp-nav ul,
+.pp-slidesNav ul {
+    opacity: 1;
+}
+
+#pagepiling .section {
+    background-size: cover;
+    text-align: center;
+}
+
+#pagepiling .section h2 {
+    background-size: cover;
+    text-align: left;
+}
+
+#pagepiling .section.section-two {
+    background-color: #ffffff;
+    position: absolute;
+}
+
+
+#pagepiling .section.section-three {
+    background-color: #ffffff;
+    position: absolute;
+}
+
+#pagepiling .section.section-four {
+    background-color: #ffffff;
+    position: absolute;
+}
+
+#pagepiling .section.section-five {
+    background-color: #ffffff;
+    position: absolute;
+}
+
+#pagepiling .section.section-six {
+    background-color: #ffffff;
+    position: absolute;
+}
+
+#pagepiling .section.section-seven {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+#pagepiling .section.section-eight {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+#pagepiling .section.section-nine {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+#pp-nav li .active span,
+.pp-slidesNav .active span {
+    background-color: #ffffff;
+}
+
+.title {
+    font-size: 90px;
+    
+}
+
+.sub-title {
+    font-size: 90px;
+    
+}
+
+.slide1text {
+    position: absolute;
+    bottom: 232px;
+    left: 150px;
+    z-index: 900;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.subtitle1,
+.subtitle2 {
+    font-size: 66px;
+    font-family: "Bebas Neue";
+    line-height: 82px;
+
+}
+
+.subtitle1 {
+    color: #f93822;
+    font-size: 88px;
+
+}
+
+.subtitle2 {
+    color: #fff;
+    font-size: 88px;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Bebas Neue Light";
+    position: relative;
+    top: 20px;
+    left: -183px;
+    letter-spacing: 2px;
+}
+
+header a:hover {
+    color: #2ad2c9;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    bottom: 90%;
+    right: 100%;
+    font-family: "Roboto";
+}
+
+header h5 {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: medium;
+}
+
+
+
+header nav {
+    display: inline-block;
+}
+
+.homeslider {
+    max-width: 100%;
+    height: 100vh;
+    width: 100vw;
+}
+
+#homeMG {
+    position: absolute;
+    height: 456px;
+    width: 505px;
+    top: 88px;
+    right: 200px;
+}
+
+.homelogo {
+    width: 202px;
+    height: 43px;
+    position: absolute;
+    z-index: 1;
+    top: 34px;
+    left: 65px;
+}
+
+.slide2image .slide2I {
+    position: absolute;
+    top: -120px;
+    right: -45px;
+    width: 384px;
+}
+
+.slide2im {
+    max-width: 100%;
+    width: 90vw;
+    height: 100vh;
+}
+
+.slide2text {
+    color: black;
+    text-align: left;
+    position: absolute;
+    font-size: 40px;
+    top: 120px;
+    left: 169px;
+    font-family: "Bebas Neue";
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.slide2subtext {
+    color: black;
+    text-align: left;
+    position: absolute;
+    font-size: 13px;
+    top: 207px;
+    left: 166px;
+    font-family: "Roboto";
+    line-height: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.slide2subtextA {
+    font-family: "Roboto Thin";
+    font-size: 66px;
+    color: #279989;
+    position: absolute;
+    top: 172px;
+    left: 1px;
+}
+
+.slide2subtextB {
+    font-family: "Roboto Thin";
+    font-size: 66px;
+    color: #279989;
+    position: absolute;
+    top: 172px;
+    left: 211px;
+}
+
+.slide2subtextC {
+    font-family: "Roboto Thin";
+    font-size: 66px;
+    color: #279989;
+    position: absolute;
+    top: 280px;
+    left: 1px;
+}
+
+.slide2subtextD {
+    font-family: "Roboto Thin";
+    font-size: 66px;
+    color: #279989;
+    position: absolute;
+    top: 278px;
+    left: 211px;
+}
+
+.slide2subtextE {
+    font-family: "Roboto";
+    font-size: 11px;
+    color: #000000;
+    position: absolute;
+    top: 214px;
+    left: 3px;
+}
+
+.slide2subtextF {
+    font-family: "Roboto";
+    font-size: 11px;
+    color: #000000;
+    position: absolute;
+    top: 214px;
+    left: 210px;
+}
+
+.slide2subtextG {
+    font-family: "Roboto";
+    font-size: 11px;
+    color: #000000;
+    position: absolute;
+    top: 320px;
+    left: 3px;
+}
+
+.slide2subtextH {
+    font-family: "Roboto";
+    font-size: 11px;
+    color: #000000;
+    position: absolute;
+    top: 327px;
+    left: 209px;
+    line-height: 1;
+}
+
+.slide2image {
+    position: absolute;
+    right: 214px;
+    top: 120px;
+}
+
+.slide3image .slide3I {
+    position: absolute;
+    top: 246px;
+    right: 177px;
+    width: 558px;
+}
+
+.slide18logotype {
+    position: absolute;
+    top: 432px;
+    left: -835px;
+    width: 221px;
+}
+
+.slide3text {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    position: absolute;
+    font-size: 44px;
+    top: 116px;
+    left: 169px;
+    font-family: "Bebas Neue";
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.slide3subtext {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    position: absolute;
+    font-size: 13px;
+    top: 402px;
+    left: 171px;
+    font-family: "Roboto";
+    line-height: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+.slide3image {
+    position: absolute;
+    top: -120px;
+    right: -11px;
+    width: 377px;
+}
+
+.slide4image .slide4I {
+    position: absolute;
+    top: 5px;
+    right: -47px;
+    width: 558px;
+}
+
+.slide4text {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    position: absolute;
+    font-size: 44px;
+    top: 116px;
+    left: 169px;
+    font-family: "Bebas Neue";
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.slide4subtext {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    position: absolute;
+    font-size: 13px;
+    top: 385px;
+    left: 171px;
+    font-family: "Roboto";
+    line-height: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.slide4image {
+    position: absolute;
+    right: 214px;
+    top: 120px;
+}
+
+.slide19logotype {
+    position: absolute;
+    top: 135px;
+    left: -988px;
+    width: 125px;
+}
+
+
+.slide5image .slide5I {
+    position: absolute;
+    top: 38px;
+    right: -49px;
+    width: 558px;
+}
+
+.slide5text {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    position: absolute;
+    font-size: 44px;
+    top: 116px;
+    left: 169px;
+    font-family: "Bebas Neue";
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.slide5subtext {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    position: absolute;
+    font-size: 13px;
+    top: 355px;
+    left: 171px;
+    font-family: "Roboto";
+    line-height: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.slide5image {
+    position: absolute;
+    right: 214px;
+    top: 120px;
+}
+
+.slide20logotype {
+    position: absolute;
+    top: 149px;
+    left: -988px;
+    width: 326px;
+}
+
+.slide6image .slide6I {
+    position: absolute;
+    top: 38px;
+    right: -49px;
+    width: 558px;
+}
+
+.slide6text {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    position: absolute;
+    font-size: 44px;
+    top: 116px;
+    left: 169px;
+    font-family: "Bebas Neue";
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.slide6subtext {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    position: absolute;
+    font-size: 13px;
+    top: 385px;
+    left: 171px;
+    font-family: "Roboto";
+    line-height: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.slide6image {
+    position: absolute;
+    right: 214px;
+    top: 120px;
+}
+
+.slide21logotype {
+    position: absolute;
+    top: 138px;
+    left: -988px;
+    width: 115px;
+}
+
+.slide7image .slide7I {
+    position: absolute;
+    top: 35px;
+    right: -49px;
+    width: 559px;
+}
+
+.slide7text {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    position: absolute;
+    font-size: 44px;
+    top: 116px;
+    left: 169px;
+    font-family: "Bebas Neue";
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.slide7subtext {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    position: absolute;
+    font-size: 13px;
+    top: 370px;
+    left: 171px;
+    font-family: "Roboto";
+    line-height: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.slide7image {
+    position: absolute;
+    right: 214px;
+    top: 120px;
+}
+
+.slide22logotype {
+    position: absolute;
+    top: 126px;
+    left: -988px;
+    width: 108px;
+}
+.slide8image .slide8I {
+    position: absolute;
+    top: 35px;
+    right: -49px;
+    width: 559px;
+}
+
+.slide8text {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    position: absolute;
+    font-size: 44px;
+    top: 116px;
+    left: 169px;
+    font-family: "Bebas Neue";
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.slide8subtext {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    position: absolute;
+    font-size: 13px;
+    top: 385px;
+    left: 171px;
+    font-family: "Roboto";
+    line-height: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.slide8image {
+    position: absolute;
+    right: 214px;
+    top: 120px;
+}
+
+.slide23logotype {
+    position: absolute;
+    top: 130px;
+    left: -983px;
+    width: 126px;
+}
+.slide8image .slide8I {
+    position: absolute;
+    top: 35px;
+    right: -49px;
+    width: 559px;
+}
+
+.slide8text {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    position: absolute;
+    font-size: 44px;
+    top: 116px;
+    left: 169px;
+    font-family: "Bebas Neue";
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.slide8subtext {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    position: absolute;
+    font-size: 13px;
+    top: 385px;
+    left: 171px;
+    font-family: "Roboto";
+    line-height: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.slide8image {
+    position: absolute;
+    right: 214px;
+    top: 120px;
+}
+
+.slide9text1 {
+    text-align: left;
+    position: absolute;
+    font-size: 34px;
+    top: 168px;
+    left: 277px;
+    font-family: "Bebas Neue";
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.slide9text2 {
+    text-align: left;
+    position: absolute;
+    font-size: 33px;
+    top: 199px;
+    left: 277px;
+    font-family: "Bebas Neue";
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.slide9image .slide9I {
+    position: absolute;
+    top: -135px;
+    right: -49px;
+    width: 608px;
+}
+
+.slide9subtext {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    position: absolute;
+    font-size: 13px;
+    top: 276px;
+    left: 276px;
+    font-family: "Roboto";
+    line-height: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.slide9image {
+    position: absolute;
+    right: 214px;
+    top: 120px;
+}
+.pp-tooltip {
+    color: #2ad2c9 !important;
+  }
+  
+  #pp-nav li .active span,
+  .pp-slidesNav .active span {
+      background: #f93822 !important;
+  }
